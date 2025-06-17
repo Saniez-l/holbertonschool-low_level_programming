@@ -1,6 +1,8 @@
 #include <stdio.h>
-/*
- * programme to desplay a text with puts
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
