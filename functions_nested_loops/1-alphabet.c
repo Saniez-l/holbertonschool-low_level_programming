@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *function print_alphabet 
+ *function print_alphabet
  *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
