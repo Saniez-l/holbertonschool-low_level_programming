@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * lettres retourn the function for print alphabet
+ *function print_alphabet 
  *
- * Return: Always 0.
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 void print_alphabet(void)
 {
