@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *function print_alphabet
- * @c: alphabet to print
+ * print_alphabet_x10 - print x10 alphabeti
+ *
  */
 void print_alphabet_x10(void)
 {
@@ -11,11 +11,11 @@ void print_alphabet_x10(void)
 
 	for (n = 0; n <= 9; n++)
 	{
-	for (lettres = 'a'; lettres <= 'z'; lettres++)
-	{
-		_putchar(lettres);
-	}
+		for (lettres = 'a'; lettres <= 'z'; lettres++)
+		{
+			_putchar(lettres);
+		}
 
-	_putchar('\n');
+		_putchar('\n');
 	}
 }
