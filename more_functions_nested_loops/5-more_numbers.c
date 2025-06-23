@@ -1,0 +1,24 @@
+#include "main.h"
+
+void more_numbers(void)
+{
+	int number,fois_dix;
+
+	for (fois_dix = 0; fois_dix < 10; fois_dix++)
+	{
+		for (number = 0; number <= 14; number++)
+		{
+			if (number >9)
+			{
+				_putchar('0' + number / 10);
+				_putchar('0' + number % 10);
+			}
+			else
+			{
+				_putchar('0' + number);
+			}
+		}
+	_putchar('\n');
+	}
+}
+
