@@ -10,13 +10,10 @@ void more_numbers(void)
 		{
 			if (number >9)
 			{
+			
 				_putchar('0' + number / 10);
-				_putchar('0' + number % 10);
 			}
-			else
-			{
-				_putchar('0' + number);
-			}
+			_putchar('0' + number % 10);
 		}
 	_putchar('\n');
 	}
