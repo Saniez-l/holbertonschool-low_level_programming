@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * puts - print string and new line
+ * _puts - print string and new line
  * @str : number str
  *
  * Return: 0
  */
 void _puts(char *str)
 {
-	
+
 	while (*str != 0)
 	{
 		_putchar(*str);
