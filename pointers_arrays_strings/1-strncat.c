@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+* _strncat - similar strncat
+* @dest: array name
+* @src: aray name
+* @n: number bytes
+*
+* Return: (dest)
+**/
 char *_strncat(char *dest, char *src, int n)
 {
 	int lenght = 0, lenght2 = 0;
