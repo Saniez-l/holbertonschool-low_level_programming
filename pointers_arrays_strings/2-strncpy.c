@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+* _strncpy - function strncpy
+* @dest: array name destination
+* @src: array name
+* @n: cunter
+*
+* Return: (dest)
+**/
 char *_strncpy(char *dest, char *src, int n)
 {
 	int lenght = 0;
