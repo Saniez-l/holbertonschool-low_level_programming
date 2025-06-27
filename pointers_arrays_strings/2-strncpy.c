@@ -1,0 +1,18 @@
+#include "main.h"
+
+char *_strncpy(char *dest, char *src, int n)
+{
+	int lenght = 0;
+
+		while (lenght < n && src[lenght] != '\0')
+		{
+			dest[lenght] = src[lenght];
+			lenght++;
+		}
+		while (n < lenght)
+		{
+			dest[lenght] = '\0';
+			lenght++;
+		}
+	return (dest);
+}
