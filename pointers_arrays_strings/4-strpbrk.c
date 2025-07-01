@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * _strpbrk - lent prefix
+ * @accept: string
+ * @s: string
+ *
+ * Return: cunt
+ */
 char *_strpbrk(char *s, char *accept)
 {
 	int i = 0, i1 = 0;
