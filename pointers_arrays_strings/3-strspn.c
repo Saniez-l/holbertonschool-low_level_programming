@@ -13,7 +13,7 @@ unsigned int _strspn(char *s, char *accept)
 
 	while (accept[i1] != '\0')
 	{
-		while (s[i] != 32)
+		while (s[i] != 32) /* ajouter caractére de fin au vu des differents main exemple virgule point....pas seulement espace '32'*/
 		{
 			if (s[i] == accept[i1])
 				cunt = i + 1;
