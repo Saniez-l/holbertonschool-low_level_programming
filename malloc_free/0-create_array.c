@@ -7,11 +7,11 @@
  * @size : of array
  *
  * Return: s
- * Return NULL: size null
+ * Return : NULL size null
  */
 char *create_array(unsigned int size, char c)
 {
-	char *s;
+	char *s = 0;
 	unsigned int i = 0;
 
 	if (size == 0)
