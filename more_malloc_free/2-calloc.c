@@ -16,15 +16,17 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	if (nmemb == 0 || size <= 0)
 	return (NULL);
-	array = malloc((sizeof(size)) * nmemb);
+
+	array = malloc((sizeof(int)) * nmemb);
 	if (array == NULL)
 	{
-		free(array);
 		return (NULL);
 	}
+
 	for (i = 0; i < nmemb; i++)
 	{
 		array[i] = 0;
 	}
+
 return (array);
 }
