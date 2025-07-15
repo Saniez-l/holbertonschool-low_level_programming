@@ -4,8 +4,6 @@
 /**
  * get_op_func - function for operator
  * @s: char s
- * @int: a
- * @int: b
  *
  * Return: operator
  */
