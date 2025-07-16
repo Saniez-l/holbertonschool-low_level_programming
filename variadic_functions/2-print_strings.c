@@ -23,7 +23,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 		printf("%s", c);
 
-		if (i != n - 1 &&  n != 0)
+		if (i < n - 1 &&  n != 0)
 			printf("%s", separator);
 	}
 	va_end(list_print);
