@@ -32,9 +32,10 @@ void print_all(const char * const format, ...)
 				if (!str)
 					printf("(nil)");
 
-			printf("%s", str);
+				printf("%s", str);
 				break;
-				default:
+
+			default:
 				i++;
 				continue;
 			}
