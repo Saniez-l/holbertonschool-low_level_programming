@@ -28,8 +28,8 @@ void print_all(const char * const format, ...)
 				printf("%f", va_arg(name, double));
 				break;
 			case 's':
-				str = va_arg(name, char *);
-				if (str == NULL || !str)
+				str = va_arg(name, char*);
+				if (!str)
 					printf("(nil)");
 
 				printf("%s", str);
