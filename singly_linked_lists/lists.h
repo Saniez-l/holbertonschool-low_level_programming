@@ -18,6 +18,25 @@ typedef struct list_s
 	struct list_s *next;
 } list_t;
 
+/**
+ * _strlen - function strlen
+ * @str: string
+ * Return: len
+ */
+int _strlen(char *str)
+{
+	int len = 0;
+
+	if (str == NULL)
+		return (0);
+
+	while (str[len] != '\0')
+	{
+		len++;
+	}
+	return (len);
+}
+
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
 list_t *add_node(list_t **head, const char *str);
