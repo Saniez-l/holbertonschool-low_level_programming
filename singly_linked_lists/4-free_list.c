@@ -1,17 +1,21 @@
 #include "lists.h"
 
+/**
+ * free_list - free list chained
+ *
+ * @head: header element
+ */
 void free_list(list_t *head)
 {
 
 	list_t *tmp;
 
-	tmp = head;
 
-	while (tmp != NULL)
+	while (head != NULL)
 	{
-		head = tmp->next;
-
-		free(tmp);
+		tmp = head->next;
+		free(head->str);
+		free(head);
+		head = tmp;
 	}
-
 }
