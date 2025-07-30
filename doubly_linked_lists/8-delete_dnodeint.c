@@ -1,5 +1,13 @@
 #include "lists.h"
 
+/**
+ * delete_dnodeint_at_index - add nod in index idx
+ *
+ * @head: header element
+ * @index: valu for insert
+ *
+ * Return: tmp.
+ */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
 	unsigned int count = 0;
