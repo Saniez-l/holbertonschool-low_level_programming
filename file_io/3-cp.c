@@ -14,14 +14,14 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		dprintf(2, "Usage: cp file_from file_to\n");
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
 
 	fd = open(argv[1], O_RDWR);
 	if (fd == -1)
 	{
-		dprintf(2, "Error: Can't read from file %s\n", file_from);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
 		exit(98);
 	}
 	fd1 = open(argv[2], O_RDWR | O_TRUNC | O_CREAT, 0664);
